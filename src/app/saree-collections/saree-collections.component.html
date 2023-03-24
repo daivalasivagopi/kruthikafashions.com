@@ -1,0 +1,11 @@
+<div class="saree-collections-header">Saree Collections</div>
+<div class="saree-collections-container">
+    <section *ngFor="let item of collections">
+        <mat-card matRipple class="example-card">
+            <img mat-card-image class="image" [src]="item?.image" alt="Photo of a Shiba Inu">
+            <mat-card-content class="name">
+                <div>{{item?.name}}</div>
+            </mat-card-content>
+        </mat-card>
+    </section>
+</div>

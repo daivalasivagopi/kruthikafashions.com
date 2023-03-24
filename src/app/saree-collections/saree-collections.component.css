@@ -1,0 +1,32 @@
+.example-card {
+    max-width: 400px;
+    margin: 15px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.saree-collections-header {
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.saree-collections-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding: 15px;
+}
+
+.image {
+    
+}
+
+.name {
+    padding-top: 16px;
+    padding-left: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
